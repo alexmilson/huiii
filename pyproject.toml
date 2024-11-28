@@ -6,6 +6,7 @@ authors = ["Joao Moura <joao@crewai.com>"]
 readme = "README.md"
 packages = [{ include = "crewai", from = "src" }]
 license = "MIT"  # or other appropriate license
+poetry shell
 
 
 [tool.poetry.urls]

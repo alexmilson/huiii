@@ -3,6 +3,6 @@ langchain_openai
 langchain_groq
 crewai_tools
 streamlit
-decouple
+python-decouple
 textwrap
 

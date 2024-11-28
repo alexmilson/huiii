@@ -2,3 +2,4 @@ crewai
 decouple
 poetry shell
 pip
+python-decouple

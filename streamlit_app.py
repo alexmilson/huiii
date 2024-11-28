@@ -9,8 +9,8 @@ os.environ["SERPER_API_KEY"] = st.secrets["SERPER_API_KEY"]
 
 with st.sidebar:
     st.header('Enter Research Details')
-    topic = st.text_input("Main topic of your research:")
-    detailed_questions = st.text_area("Specific questions or subtopics you are interested in exploring:")
+    topic = st.text_input("Company name:")
+    detailed_questions = st.text_area("Specific questions about the company:")
 
 if st.button('Run Research'):
     if not topic or not detailed_questions:

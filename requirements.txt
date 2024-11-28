@@ -1,4 +1,6 @@
 crewai
+langchain
+openai
 langchain_openai
 langchain_groq
 crewai_tools

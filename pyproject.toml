@@ -56,8 +56,9 @@ profile = "black"
 known_first_party = ["crewai"]
 
 [tool.poetry.group.test.dependencies]
-pytest 
-pytest-vcr 
+pytest = "*"
+pytest-vcr = "*"
+
 
 [tool.poetry.scripts]
 crewai = "crewai.cli.cli:crewai"

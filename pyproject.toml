@@ -65,6 +65,3 @@ python-dotenv = "1.0.0"
 [tool.poetry.scripts]
 crewai = "crewai.cli.cli:crewai"
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"

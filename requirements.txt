@@ -6,5 +6,5 @@ langchain_groq
 crewai_tools
 streamlit
 python-decouple
-
+sqlite3 >= 3.35.0
 

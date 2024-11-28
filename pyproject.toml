@@ -4,8 +4,8 @@ version = "0.28.8"
 description = "Framework for orchestrating collaborative, autonomous AI agents tackling complex tasks."
 authors = ["Joao Moura <joao@crewai.com>"]
 readme = "README.md"
-packages = [{ include = "crewai", from = "src" }]
 license = "MIT"  # or other appropriate license
+
 
 [tool.poetry.urls]
 Homepage = "https://crewai.com"

@@ -1,5 +1,5 @@
 crewai
-
+pillow
 
 pip
 

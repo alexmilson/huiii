@@ -35,10 +35,10 @@ class ResearchCrew:
         return crew.kickoff()
 
 if __name__ == "__main__":
-    print("Welcome to the Research Crew Setup")
+    print("Welcome to the Market Research")
     print("---------------------------------------")
-    topic = input("Please enter the main topic of your research: ")
-    detailed_questions = input("What specific questions or subtopics are you interested in exploring? ")
+    topic = input("Please enter company: ")
+    detailed_questions = input("What specific questions are you interested in exploring? ")
 
     inputs = f"Topic: {topic}\nDetailed Questions: {detailed_questions}"
     research_crew = ResearchCrew(inputs)
